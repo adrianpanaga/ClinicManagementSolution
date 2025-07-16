@@ -1,0 +1,14 @@
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\bin\Debug\net9.0\ClinicManagement.Data.deps.json
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\bin\Debug\net9.0\ClinicManagement.Data.runtimeconfig.json
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\bin\Debug\net9.0\ClinicManagement.Data.dll
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\bin\Debug\net9.0\ClinicManagement.Data.pdb
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.csproj.AssemblyReference.cache
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.AssemblyInfoInputs.cache
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.AssemblyInfo.cs
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.dll
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\refint\ClinicManagement.Data.dll
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.pdb
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ClinicManagement.Data.genruntimeconfig.cache
+C:\Users\AdrianPanaga\ClinicManagementSolution\ClinicManagementSystem\ClinicManagement.Data\obj\Debug\net9.0\ref\ClinicManagement.Data.dll
