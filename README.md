@@ -86,8 +86,8 @@ To set up and run the API locally:
     * SQL Server instance (LocalDB, SQL Express, or a full SQL Server)
 2.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repo-name>/src/ClinicManagementAPI
+    git clone https://github.com/adrianpanaga/ClinicManagementSolution.git
+    cd https://github.com/adrianpanaga/ClinicManagementSolution.git/src/ClinicManagementAPI
     ```
 3.  **Configure Database Connection:**
     * Open `appsettings.Development.json` (or `appsettings.json`) and update the `ConnectionStrings:DefaultConnection` to point to your SQL Server instance.
