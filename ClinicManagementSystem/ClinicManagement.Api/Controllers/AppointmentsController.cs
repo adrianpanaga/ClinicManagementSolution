@@ -41,7 +41,7 @@ namespace ClinicManagement.Api.Controllers
             {
                 AppointmentId = appointment.AppointmentId,
                 PatientId = appointment.PatientId,
-                DoctorId = (int)appointment.DoctorId,
+                DoctorId = appointment.DoctorId,
                 ServiceId = appointment.ServiceId,
                 AppointmentDateTime = appointment.AppointmentDateTime,
                 Status = appointment.Status,
@@ -164,7 +164,7 @@ namespace ClinicManagement.Api.Controllers
                 {
                     AppointmentId = a.AppointmentId,
                     PatientId = a.PatientId,
-                    DoctorId = (int)a.DoctorId,
+                    DoctorId = a.DoctorId,
                     ServiceId = a.ServiceId,
                     AppointmentDateTime = a.AppointmentDateTime,
                     Status = a.Status,
@@ -598,7 +598,7 @@ namespace ClinicManagement.Api.Controllers
             {
                 AppointmentId = appointment.AppointmentId,
                 PatientId = appointment.PatientId,
-                DoctorId = (int)appointment.DoctorId,
+                DoctorId = appointment.DoctorId,
                 ServiceId = appointment.ServiceId,
                 AppointmentDateTime = appointment.AppointmentDateTime,
                 Status = appointment.Status,
