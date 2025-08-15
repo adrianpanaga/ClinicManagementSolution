@@ -18,7 +18,7 @@ This API provides a wide range of functionalities to support clinic operations:
     * Securely request and verify OTP (One-Time Password) via contact details (email/phone) for patient identity verification without traditional logins.
     * Returns essential patient details upon successful verification.
 * **Patient Record Management:**
-    * Comprehensive CRUD (Create, Read, Update, Update, Delete) operations for patient demographic information.
+    * Comprehensive CRUD (Create, Read, Update, Delete) operations for patient demographic information.
     * **Detailed medical records, encompassing past diagnoses, treatments, and medications.**
     * **Triage Records: Capture and manage vital signs, chief complaints, and other triage data during patient encounters.**
     * **Lab Results Storage: Store and retrieve various laboratory test results, including test names, values, units, and interpretations.**
