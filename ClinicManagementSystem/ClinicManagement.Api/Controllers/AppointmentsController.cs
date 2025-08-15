@@ -147,7 +147,7 @@ namespace ClinicManagement.Api.Controllers
         // GET: api/Appointments/5
         /// <summary>
         /// Retrieves a specific appointment by ID.
-        /// Requires Admin, HR, Receptionist, or if patient/doctor/nurse, then it must be their own.
+        /// This endpoint is publicly accessible and does not require authentication.
         /// </summary>
         /// <param name="id">The ID of the appointment.</param>
         /// <returns>The AppointmentDto if found, otherwise NotFound.</returns>
