@@ -88,14 +88,12 @@ namespace ClinicManagement.Api.Controllers
                     UserId = medicalRecord.Staff.UserId,
                     IsDeleted = medicalRecord.Staff.IsDeleted
                 } : null,
-                // Use null-forgiving operator (!) as the outer ternary ensures medicalRecord.Appointment is not null here.
-                // This resolves the 'int?' to 'int' conversion error by asserting non-nullability for the compiler.
                 Appointment = medicalRecord.Appointment != null ? new AppointmentDto
                 {
                     AppointmentId = medicalRecord.Appointment.AppointmentId,
                     PatientId = medicalRecord.Appointment.PatientId,
-                    DoctorId = (int)medicalRecord.Appointment.DoctorId, // Added ! to assert non-nullability
-                    ServiceId = medicalRecord.Appointment.ServiceId, // Added ! to assert non-nullability
+                    DoctorId = medicalRecord.Appointment.DoctorId,
+                    ServiceId = medicalRecord.Appointment.ServiceId, // ServiceId remains non-nullable
                     AppointmentDateTime = medicalRecord.Appointment.AppointmentDateTime,
                     Status = medicalRecord.Appointment.Status,
                     Notes = medicalRecord.Appointment.Notes,

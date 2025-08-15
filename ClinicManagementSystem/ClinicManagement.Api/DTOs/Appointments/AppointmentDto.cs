@@ -13,7 +13,7 @@ namespace ClinicManagement.Api.DTOs.Appointments
     {
         public int AppointmentId { get; set; }
         public int? PatientId { get; set; } // Nullable as per model
-        public int DoctorId { get; set; }
+        public int? DoctorId { get; set; } // Nullable to mirror model
         public int ServiceId { get; set; }
         public DateTime AppointmentDateTime { get; set; }
         // Change from string to enum
