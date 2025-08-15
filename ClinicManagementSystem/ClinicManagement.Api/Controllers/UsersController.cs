@@ -205,6 +205,13 @@ namespace ClinicManagement.Api.Controllers
             {
                 return BadRequest($"Role '{assignRoleDto.RoleName}' not found.");
             }
+            var userRoles = _context.Set<UserRole>();
+            if (await userRoles.AnyAsync(ur => ur.UserId == id && ur.RoleId == role.Id))
+            {
+                return BadRequest($"User already has role '{assignRoleDto.RoleName}'.");
+            }
+
+            userRoles.Add(new UserRole { UserId = id, RoleId = role.Id });
 
             try
             {
